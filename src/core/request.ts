@@ -198,9 +198,9 @@ export class Request {
       'X-IG-EU-DC-ENABLED':
         typeof this.client.state.euDCEnabled === 'undefined'
           ? void 0
-          : this.client.state.euDCEnabled.toString() || undefined,
+          : this.client.state.euDCEnabled?.toString() || undefined,
       'X-IG-Extended-CDN-Thumbnail-Cache-Busting-Value':
-        this.client.state.thumbnailCacheBustingValue.toString() || '1000',
+        this.client.state.thumbnailCacheBustingValue?.toString() || '1000',
       'X-Bloks-Version-Id': this.client.state.bloksVersionId,
       'X-MID': this.client.state.extractCookie('mid')?.value,
       'X-IG-WWW-Claim': this.client.state.igWWWClaim || '0',
