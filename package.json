@@ -1,5 +1,5 @@
 {
-  "name": "instagram-private-api",
+  "name": "@yblok13/instagram-private-api",
   "description": "Instagram private API wrapper for full access to instagram",
   "version": "1.43.3",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dilame/instagram-private-api.git"
+    "url": "https://github.com/yblok13/instagram-private-api.git"
   },
   "homepage": "https://github.com/dilame/instagram-private-api",
   "scripts": {
